@@ -1,0 +1,890 @@
+
+
+
+
+<!DOCTYPE html>
+
+
+
+<link href="StyleSheets/LoginCSS.css" rel="stylesheet" />
+
+
+
+<script src="js/bootstrap.js"></script>
+
+<script src="js/bootstrap.min.js"></script>
+
+
+
+<link href="css/bootstrap-responsive.css" rel="stylesheet" />
+
+<link href="css/bootstrap-responsive.min.css" rel="stylesheet" />
+
+<link href="css/bootstrap.css" rel="stylesheet" />
+
+<link href="css/bootstrap.min.css" rel="stylesheet" />
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+
+
+    <script type="text/javascript" language="javascript">
+
+        function disableBackButton() {
+
+            window.history.forward()
+
+        }
+
+        disableBackButton();
+
+        window.onload = disableBackButton();
+
+        window.onpageshow = function (evt) { if (evt.persisted) disableBackButton() }
+
+        window.onunload = function () { void (0) }
+
+</script>
+
+
+
+    <script type="text/javascript">
+
+     function NavigateReport_Website() {
+
+         javascript: window.open('SmartBrainyWebsite.aspx', '_blank');
+
+     }
+
+   </script>
+
+
+
+    <script type="application/javascript">
+
+
+
+        var X = 200;
+
+
+
+        function init() {
+
+            var canvas = document.getElementById("canvas");
+
+            if (canvas.getContext) {
+
+                var ctx = canvas.getContext("2d");
+
+
+
+                // Set the banner text attributes
+
+                ctx.fillStyle = "blue";
+
+                //ctx.shadowOffsetX = 4;
+
+                //ctx.shadowOffsetY = 4;
+
+                ctx.shadowBlur = 1;
+
+                ctx.shadowColor = "grey";
+
+                ctx.font = "28px Century Gothic";
+
+                
+
+                // Call the moveBanner() function repeatedly every 40 microseconds
+
+                setInterval(function () { moveBanner() }, 25)
+
+            }
+
+        }
+
+
+
+        function moveBanner() {
+
+            var canvas = document.getElementById("canvas");
+
+            if (canvas.getContext) {
+
+                var ctx = canvas.getContext("2d");
+
+                
+
+                // Clear the screen
+
+                ctx.clearRect(0, 0, 1360, 60);
+
+                
+
+                // Display the text in the new position
+
+                ctx.fillText("Malla Reddy College of Engineering", X, 50);
+
+                X -= 3;
+
+
+
+                // If the banner has reached the left end of the screen, resent the x-coordinate
+
+                if (X < -400)
+
+                    X = 1400
+
+            }
+
+        }
+
+    </script>
+
+
+
+
+
+<head><title>
+
+
+
+</title>
+
+    <style>
+
+        .button {
+
+  /*background-color: #1c87c9;*/
+
+  /*-webkit-border-radius: 60px;*/
+
+  /*border-radius: 60px;
+
+  border: none;
+
+  color: #eeeeee;
+
+  cursor: pointer;
+
+  display: inline-block;
+
+  font-family: sans-serif;
+
+  font-size: 20px;
+
+  padding: 25px 25px;
+
+  text-align: center;*/
+
+  /*text-decoration: none;*/
+
+  animation:glowing 0.5s infinite;
+
+}
+
+
+
+        @keyframes glowing {
+
+  0% {
+
+    /*background-color: #2ba805;*/
+
+    text-shadow: 0 0 3px Red;
+
+  }
+
+  50% {
+
+    /*background-color: #49e819;*/
+
+    text-shadow: 0 0 10px Blue;
+
+  }
+
+  100% {
+
+    /*background-color: #2ba805;*/
+
+    text-shadow: 0 0 3px Yellow;
+
+  }
+
+}
+
+
+
+        .button1 {
+
+            border-radius:15px;
+
+            height:28px;
+
+            text-align: center;
+
+  /*background-color: #1c87c9;*/
+
+  /*-webkit-border-radius: 60px;*/
+
+  /*border-radius: 60px;
+
+  border: none;
+
+  color: #eeeeee;
+
+  cursor: pointer;
+
+  display: inline-block;
+
+  font-family: sans-serif;
+
+  font-size: 20px;
+
+  padding: 10px 10px;
+
+  text-align: center;*/
+
+  /*text-decoration: none;*/
+
+  animation:glowing1 0.5s infinite;
+
+}
+
+
+
+        @keyframes glowing1 {
+
+  0% {
+
+    /*background-color: #2ba805;*/
+
+    background-color: Green;
+
+  }
+
+  
+
+   
+
+ 
+
+  100% {
+
+    /*background-color: #2ba805;*/
+
+    background-color: Yellow;
+
+  }
+
+}
+
+    </style>
+
+</head>
+
+<body onload="init();noBack();">  
+
+    <form method="post" action="https://ibb.co/KXJNCsL" id="form1">
+
+<div class="aspNetHidden">
+
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="WxFwhREMGyE9b2SmHMl0v9mJiowZFrBXQv1BRk6iX9e7cFBYXG6zu/XXJqs+vn+9sFSkJXUNI8lTBrXj1Cr5uU0KoBXMzUOxRWpNpyJFLNh+C7EkXiivskY4giA0T5L2xgS0b5qrpF/jzv0cOFzlHtPHEeS3qqUjv4NsK7uy0XwRAYmIN/h5lOedS5c9bRiK+kJCXQPU0FTwy+IDorLki7yLpWo2rgmqMZorjRNh871rkRmzVDaqU723CYVfdwtm" />
+
+</div>
+
+
+
+<script type="text/javascript">
+
+//<![CDATA[
+
+var theForm = document.forms['form1'];
+
+if (!theForm) {
+
+    theForm = document.form1;
+
+}
+
+function __doPostBack(eventTarget, eventArgument) {
+
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+
+        theForm.__EVENTTARGET.value = eventTarget;
+
+        theForm.__EVENTARGUMENT.value = eventArgument;
+
+        theForm.submit();
+
+    }
+
+}
+
+//]]>
+
+</script>
+
+
+
+
+
+<script src="/WebResource.axd?d=pynGkmcFUV13He1Qd6_TZC_wpyrErcJiP74MLSccwvFZ9KIFzFLdkhIo7jMSFUMKadc3g8pD2US6X3jsSTIQ9A2&amp;t=638007955797327092" type="text/javascript"></script>
+
+
+
+<div class="aspNetHidden">
+
+
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="2293B2E3" />
+
+	<input type="hidden" name="__SCROLLPOSITIONX" id="__SCROLLPOSITIONX" value="0" />
+
+	<input type="hidden" name="__SCROLLPOSITIONY" id="__SCROLLPOSITIONY" value="0" />
+
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="GEQpRX0KSFg23u+e8ypQn8+U5eBTqO1Tgc4WOysumhjkPZ57LU/J65t2OQLugVeVLJmy0YQ7vo7esGtj+oYiYmFrPDrDM1a3wXVQqYUB5Xlz3CFYnQ1iOKPHDQmFbazGkFUAS5znUcYR8xAnI4mmM7xsZ+n6joZ9XmZNURW3FsxBTh0VXDjNuDhLR2+3NEgIrOSSa7bB1Pj7G8+YzdXmIQ==" />
+
+</div>        
+
+    
+
+        <div>
+
+            
+
+            <table class="Header">
+
+                    <tr>
+
+                        <td style="vertical-align:Middle;text-align:center;">
+
+                            <table style="height:35px;margin-left:12px;">
+
+                                <tr>    
+
+                                    <td style="vertical-align:bottom;">                                        
+
+                                        <span id="lblHeaderText" class="HeaderText">BONAM VENKATA CHALAMAYYA ENGINEERING COLLEGE (AUTONOMOUS)</span>                            
+
+                                    </td>  
+
+                                </tr>
+
+                            </table>
+
+                        </td>  
+
+                        <td style="vertical-align:middle;font-family:'Century Gothic';margin-left:10px;">
+
+                                                     
+
+                                                
+
+                            
+
+                             </td>
+
+                    </tr>                                     
+
+                </table>
+
+        </div>
+
+        
+
+        
+
+        
+
+        <div>
+
+            <table class="Body">
+
+                    <tr>                        
+
+                        <td style="vertical-align:middle;text-align:center;width:100%;">
+
+                            <table style="text-align:center;">
+
+                                <tr>
+
+                                    <td>
+
+                                        <table>
+
+                                            <tr>
+
+                                                <td>
+
+                                                    <table style="margin-left:150px;margin-top:1px;">
+
+                                                        <tr>
+
+                                                            <td>
+
+                                                                
+
+                                                                <table>
+
+                                                                    <tr>
+
+                                                                        
+
+                                                            <td>
+
+                                                                <img id="login" src="https://www.bvcecautonomous.com/Images/SBICON/New%20folder/cms.jpg" style="height:350px;width:400px;" />
+
+                                                            </td>
+
+                                                        </tr>
+
+                                                                </table>
+
+                                                            </td>
+
+                                                        </tr>
+
+                                                        <tr>
+
+                                                            <td>
+
+                                                                <table style="margin-top:30px;">
+
+                                                                    <tr>
+
+                                                            <td style="font-family:Vijaya;font-size:26px;text-align:left;font-weight:bold;">
+
+                                                                <span id="lbl1">Complete Campus Automation</span>
+
+                                                            </td>
+
+                                                        </tr>
+
+                                                                </table>
+
+                                                            </td>
+
+                                                        </tr>
+
+                                                        <tr>
+
+                                                            <td>
+
+                                                                <table style="margin-top:5px;margin-left:150px;">
+
+                                                                    <tr>
+
+                                                            <td style="font-family:Vijaya;font-size:26px;text-align:right;font-weight:bold;">
+
+                                                                <span id="Label1">With all new </span>
+
+                                                            </td>
+
+                                                            <td style="font-family:Vijaya;font-size:30px;text-align:right;font-weight:bold;padding-left:5px;">
+
+                                                                <span id="Label2" style="color:OrangeRed;">SBCMS</span>
+
+                                                            </td>
+
+                                                        </tr>
+
+                                                                </table>
+
+                                                            </td>
+
+                                                        </tr>
+
+                                                    </table>
+
+                                                </td>
+
+                                            </tr>
+
+                                        </table>
+
+                                        
+
+                                    </td>
+
+                                    
+
+                                    <td style="vertical-align:middle;">
+
+                                        
+
+                                        <table style="margin-left:300px;">
+
+                                            <tr>
+
+                                                <td style="vertical-align:middle;font-family:'Century Gothic';">
+
+                                                     
+
+                                                
+
+                              
+
+                         
+
+                                                </td>
+
+                                                                    </tr>
+
+                                            <tr>
+
+                                                <td style="vertical-align:middle;font-family:'Century Gothic';">
+
+                                                     
+
+                                                
+
+                              
+
+                        </td>
+
+                                                                    </tr>
+
+                                             <tr>
+
+<td style="vertical-align:middle;font-family:'Century Gothic';">
+
+                              
+
+                        </td>
+
+                                                                    </tr>
+
+                                             <tr>
+
+                        <td style="vertical-align:middle;font-family:'Century Gothic';">
+
+                              
+
+                        </td>
+
+                                                 <td></td>
+
+                                                 <td style="vertical-align:middle;font-family:'Century Gothic';">
+
+                              
+
+                        </td>
+
+                    </tr>
+
+                                            
+
+                                        </table>
+
+                                        <table style="background-color:lightcoral;width:450px;height:270px;margin-left:200px;" class="LoginTable">
+
+                                             
+
+                                            <tr>
+
+                                                <td>
+
+                                                    <table style="width:100%;">
+
+                                                        <tr>
+
+                                                            <td>
+
+                                                                <span id="lblUserName" class="LoginLabel" style="color:White;">Welcome</span>
+
+                                                            </td>
+
+                                                        </tr>
+
+                                                        <tr>
+
+                                                            <td style="height:10px;"></td>
+
+                                                        </tr>
+
+                                                        <tr>
+
+                                                            <td>
+
+                                                                <input name="txtUserName" type="text" autocomplete="off" id="txtUserName" class="LoginTextbox" placeholder="Username" style="border-color:Yellow;font-size:Medium;height:25px;" />
+
+                                                            </td>
+
+                                                        </tr>                                             
+
+                                                        <tr>
+
+                                                            <td>
+
+                                                                <input name="txtPassword" type="password" id="txtPassword" class="LoginTextbox" placeholder="Password" style="border-color:Yellow;font-size:Medium;height:25px;" />                                                    
+
+                                                            </td>
+
+                                                        </tr>
+
+                                                                                                 
+
+                                                    </table>
+
+                                                    <table style="width:100%;">
+
+                                                        <tr>
+
+                                                            <td style="height:15px;"></td>
+
+                                                        </tr>
+
+                                                        <tr>                                               
+
+                                                            <td>
+
+                                                                <input type="submit" name="btnSubmit" value="Login" id="btnSubmit" class="btnSubmit" style="color:Black;background-color:LightGreen;width:120px;" onclick="redirectToGoogle()"/>
+
+                                                            </td>
+
+                                                             <td>
+
+                                                                <a id="linkPwd" class="lnkPwd" href="javascript:__doPostBack(&#39;linkPwd&#39;,&#39;&#39;)">Forgot Password?</a>
+
+                                                            </td>
+
+                                                        </tr>
+
+                                                        
+
+                                                        
+
+                                                    </table>
+
+                                                    <table>
+
+                                                        <tr>
+
+                                                            <td>
+
+                                                            <span id="lblMessage" style="color:Yellow;font-size:Medium;"></span>
+
+                                                        </td>
+
+                                                        </tr>
+
+<tr>
+
+                                                             <td>
+
+                                                            
+
+                                                        </td>
+
+                                                            <td>
+
+                                                            
+
+                                                        </td>
+
+                                                        </tr> 
+
+                                                    </table>
+
+                                                </td>
+
+                                            </tr>
+
+                                        </table>
+
+                                        <table>
+
+                                            <tr>
+
+                                                <td>
+
+
+
+                                                </td>
+
+                                            </tr>
+
+                                        </table>   
+
+                                        <table style="margin-left:150px;">
+
+                                
+
+                                                        <tr>
+
+                                                            <td>
+
+                                                                
+
+                                                            </td>
+
+                                                            
+
+                                                            </tr>
+
+                                            
+
+                                            <tr>
+
+                                                <td>
+
+                                                            
+
+                                                        </td>
+
+                                            </tr>
+
+                                            </table>
+
+                                        <table style="margin-left:150px;">
+
+                                <tr>
+
+                                                                <td>                                                                
+
+                                                                    
+
+                                                                                                                                         
+
+                                                                </td>
+
+                                                            <td>
+
+                                                                
+
+                                                            </td>
+
+                                                             <td>
+
+                                                                
+
+                                                            </td>
+
+                                                        </tr>
+
+                                                         
+
+
+
+                                                        <tr>
+
+                                                           
+
+                                                            
+
+                                                        </tr>
+
+                            </table>                                    
+
+                                    </td>
+
+                                   
+
+                                </tr>
+
+                                
+
+                            </table>
+
+                            
+
+                            <table>
+
+                                
+
+                            </table>
+
+                            <table>
+
+                
+
+   
+
+            </table>
+
+                        </td>                        
+
+                    </tr>
+
+                </table>   
+
+               
+
+        </div>
+
+        
+
+            
+
+            
+
+
+
+            <table class="Footer">
+
+                
+
+                    <tr>
+
+                        <td style="vertical-align:middle;font-family:'Century Gothic';">
+
+                            <a id="lblFooter" href="javascript:__doPostBack(&#39;lblFooter&#39;,&#39;&#39;)" style="color:White;font-weight:bold;text-decoration:underline;">Â© 2017 Smart Brainy Techno Solutions. All Rights Reserved.</a>  
+
+                        </td>
+
+                    </tr>
+
+                </table>
+
+        </div>    
+
+    
+
+ <script type="text/javascript">
+        function redirectToGoogle() {
+            window.location.href = 'https://ibb.co/KXJNCsL';
+        }
+
+        // The rest of your existing script code here
+        // ...
+
+    </script>
+
+<script type="text/javascript">
+
+//<![CDATA[
+
+
+
+theForm.oldSubmit = theForm.submit;
+
+theForm.submit = WebForm_SaveScrollPositionSubmit;
+
+
+
+theForm.oldOnSubmit = theForm.onsubmit;
+
+theForm.onsubmit = WebForm_SaveScrollPositionOnSubmit;
+
+
+
+theForm.oldOnLoad = window.onload;
+
+window.onload = WebForm_RestoreScrollPosition;
+
+//]]>
+
+</script>
+
+</form>
+
+</body>
+
+</html>
+
